@@ -11,3 +11,5 @@ source <(kubectl completion bash|sed s/kubectl/k/g)
 
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
+
+cp ./.vimrc ~/.vimrc
