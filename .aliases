@@ -1,5 +1,4 @@
-alias c=clear
-
+alias c='clear'
 alias k='kubectl'
-alias kns='k -n=$ns'
-alias kdr='kubectl --dry-run -o=yaml'
+#alias kns='k -n=$ns'
+#alias kdr='kubectl --dry-run -o=yaml'
