@@ -1,4 +1,7 @@
 alias c='clear'
+
+alias vim='vim +startinsert'
+
 alias k='kubectl'
 alias kuns='kubectl config set-context --current --namespace '
 alias kudr='kubectl --dry-run -o=yaml'
