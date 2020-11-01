@@ -2,11 +2,12 @@
 # to execute
 # source ./config-term.sh
 
+source <(kubectl completion bash)
+source <(k completion bash | sed s/kubectl/k/g)
+
 source ./.aliases
 
-
-source <(kubectl completion bash)
-source <(kubectl completion bash | sed s/kubectl/k/g)
+export DR='--dry-run=client -oyaml'
 
 # bind '"\e[A": history-search-backward'
 # bind '"\e[B": history-search-forward'
