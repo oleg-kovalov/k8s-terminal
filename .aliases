@@ -1,7 +1,7 @@
 alias c='clear'
 
-alias vim='vim +startinsert'
+# alias vim='vim +startinsert'
 
 alias k='kubectl'
 alias kuns='k config set-context --current --namespace '
-# alias kudr='k --dry-run=client -oyaml'
+
